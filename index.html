@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="//unpkg.com/spiritjs/dist/spirit.min.js" ></script>
+    <script src="https://unpkg.com/spiritjs@2.4.1/dist/spirit.min.js" ></script>
     <style>
     .dashboard {
         display: flex;
@@ -106,4 +106,10 @@
 </div>
 </div>
 </body>
+<script>
+    spirit.loadAnimation({
+      autoPlay: true,
+      path: './animation.json',
+    })
+  </script>
 </html>
